@@ -44,7 +44,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # support for the NoPrompt option allows non-interactive use of this script
-NO_PROMPT=0
+NO_PROMPT=1
 # get the script options
 while [ $# -gt 0 ]
 do
